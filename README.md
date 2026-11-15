@@ -1,6 +1,6 @@
 # Storyboard Workflow Automation
 
-A Python portfolio edition derived from a privately developed AI short-drama workflow. This candidate preserves selected original analysis, schema validation, runtime budgeting, asset matching, and review modules, with a newly added local Flask demonstration and browser adapter.
+An independent, sanitized and runnable Python technical demonstration derived from a privately developed AI short-drama workflow. This edition retains selected analysis, schema validation, runtime budgeting, asset matching and review modules, alongside a local Flask workflow and Playwright browser adapter. It uses fictional sample data and excludes private production endpoints, credentials, browser sessions and business assets.
 
 ## Runnable features
 
@@ -29,7 +29,7 @@ For optional browser execution install Chromium with `python -m playwright insta
 
 For optional LLM use configure OPENAI_API_KEY and a model you have access to. The original adapter accepts these values explicitly; the local Flask demo always uses mock analysis. Do not send confidential scripts. The public adapter suppresses provider diagnostics and chained exceptions; it does not save request or response bodies on failure.
 
-See docs/architecture.md and SECURITY.md. Older audit files are historical snapshots; current validation results are provided in the Codex conversation. Publication is pending owner review; no license grant is added without the owner's choice.
+See docs/architecture.md and SECURITY.md for module boundaries and safe local use. This repository is a standalone technical demonstration; it does not provide access to the original production system. No license has been selected for this edition.
 
 The demo rejects non-object JSON, oversized input and cross-origin writes, restricts the Host header to the loopback demo address, and caps in-memory drafts at 100. It remains a single-process local demonstration, not a hosted multi-user application. Tests exercise LLM success, invalid structured output and recovery through an injected client without network requests or API charges.
 
