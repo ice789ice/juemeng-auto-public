@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+runtime/
+data/
+*.log
+*storage*state*
+*profile*/
+build/
+dist/
+*.egg-info/
